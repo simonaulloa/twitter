@@ -33,16 +33,7 @@ function agregar(){
 	cora.addEventListener("click", function(){ /*funcion click para <3 clase rojo*/
 		cora.classList.toggle("red");
 	})
-	if(tareas == null || tareas.length ==0){ /*valida que no este vacio al aceptar*/
-		alert("¡error! debe ingresar tarea");
-		return false;
-	}
-	window.onload = funcion(){ /*si deseo eliminar la llamada onclick="agregar()" del elemento boton se pone este codigo al inicio del documento*/
-		document.getElementById("boton").addEventListener("click", agregar);
-	}
-	<button type="button" class="btn btn-primary pull-right" id="boton"> /*y en el HTML eliminar el atributo onclick*/
-		<span class="glyphicon glyphicon-plus" aria-hidden="true"> </span> Agregar
-	</button>	
+
 }
 
 
